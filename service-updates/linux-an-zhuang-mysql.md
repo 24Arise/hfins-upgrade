@@ -1,6 +1,4 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1665606133288-10784ac63596?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE2Njc1NzM0NzI&ixlib=rb-4.0.3&q=80
 coverY: 0
 ---
 
@@ -505,7 +503,11 @@ network         0:off   1:off   2:on    3:on    4:on    5:on    6:off
 [root@arise ~]# 
 ```
 
-_「 Tips：设置 `mysql` 开机自启后，`chkconfig --list` 可查看到 `mysql` 2\~5 都显示 `on` 状态 」_
+{% hint style="info" %}
+_设置 `mysql` 开机自启后，`chkconfig --list` 可查看到 `mysql` 2\~5 都显示 `on` 状态_&#x20;
+{% endhint %}
+
+
 
 * 参考文献
 
