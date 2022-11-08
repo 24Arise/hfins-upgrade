@@ -1,0 +1,21 @@
+# hssp-service
+
+```shell
+- 2ed1ab15be [FIX]bugfix-hfins-3025影像的附件添加桶名和附件size
+
+- 10f3d09070 [FIX]hfins-3209:【我的预提申请】来源单据创建时，若查询的单据业务币种与支付币种不同，查询会报错
+
+- 432790ef71 [FIX]bugfix-hfins-3186:【我的审批】单据转交报错
+
+- 80875e2e47 [FIX][hfins-3116]全电发票二维码识别有误
+
+- c07e95baf1 [FIX]bugfix-hfins-3184:【费用申请的类型定义】默认模版最多只有一个
+
+- 856fdf84d0 [FIX]bugfix-hfins-3167:【我的费用申请】后端-费用申请开启借款标志后，借款行选择单据类型时限制不能查到调整类借款单
+
+...
+```
+
+* 说明
+
+> 当前版本主要解决全电发票重复入池的缺陷 _`80875e2e47`_ ，后端更新依赖即可，前端还需至 [_HFINs-适配全电发票_](https://doc.weixin.qq.com/doc/w3\_AMwA7AarANgIY1m80rnQlG0NaZVHZ?scode=AI4AxAfhABECLRaP0TAMwA7AarANg) 下 _**缺陷修复补充 - 前端修复方案**_ 章节，对照进行相关调整
