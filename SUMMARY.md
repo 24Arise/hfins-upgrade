@@ -1,10 +1,10 @@
 # Table of contents
 
 * [😁 Service updates](README.md)
-  * [hssp-service](service-updates/hssp-service/README.md)
-    * [1.7.1.BETA](service-updates/hssp-service/1.7.1.beta.md)
-    * [1.7.1.BETA.1](service-updates/hssp-service/1.7.1.beta.1.md)
-    * [1.7.1.BETA.2](service-updates/hssp-service/1.7.1.beta.2.md)
+  * [hssp-service](service-updates/hasp-hzero/README.md)
+    * [1.7.1.BETA](service-updates/hasp-hzero/1.7.1.beta.md)
+    * [1.7.1.BETA.1](service-updates/hasp-hzero/1.7.1.beta.4.md)
+    * [1.7.1.BETA.2](service-updates/hasp-hzero/hssp-service.md)
     * [1.7.1.BETA.3](service-updates/hssp-service/1.7.1.beta.3.md)
     * [1.7.1.BETA.4](service-updates/hssp-service/1.7.1.beta.4.md)
   * [hfins-ecm](service-updates/hfins-ecm.md)
