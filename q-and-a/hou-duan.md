@@ -6,7 +6,7 @@
 
 _hzero-report_ 服务需依赖
 
-{% code lineNumbers="true" %}
+{% code overflow="wrap" lineNumbers="true" %}
 ```xml
 <dependency>
     <groupId>org.hzero.starter</groupId>
@@ -21,7 +21,7 @@ _hzero-report_ 服务需依赖
 
 _hzero-platform_ 需升级版本
 
-{% code lineNumbers="true" %}
+{% code overflow="wrap" lineNumbers="true" %}
 ```xml
 <dependency>
     <groupId>org.hzero</groupId>
@@ -43,3 +43,44 @@ _hzero-platform_ 需升级版本
 </dependency>
 ```
 {% endcode %}
+
+## _hzero-import_
+
+### 1、导入报主键加密错误
+
+_hzero-starter-keyencrypt_ 需升级版本至 _`1.9.1.RELEASE`_
+
+{% code overflow="wrap" lineNumbers="true" %}
+```xml
+<dependency>
+    <groupId>org.hzero.starter</groupId>
+    <artifactId>hzero-starter-keyencrypt</artifactId>
+    <version>1.9.1.RELEASE</version>
+</dependency>
+```
+{% endcode %}
+
+## _hssp-service_
+
+### 1、导入报主键加密错误
+
+> 导入时基于 _`H1DetailsHelper`_ 获取变量解密报错
+
+_hzero-starter-keyencrypt_ 需升级版本至 _`1.9.1.RELEASE`_
+
+{% code overflow="wrap" lineNumbers="true" %}
+```xml
+<dependency>
+    <groupId>org.hzero.starter</groupId>
+    <artifactId>hzero-starter-keyencrypt</artifactId>
+    <version>1.9.1.RELEASE</version>
+</dependency>
+```
+{% endcode %}
+
+{% hint style="info" %}
+请一并升级 _hzero-import_ 的 _starter-keyencrypt_ 版本
+{% endhint %}
+
+
+
