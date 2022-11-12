@@ -15,6 +15,8 @@ _hzero-report_ 服务需依赖
 ```
 {% endcode %}
 
+
+
 ## _hzero-platform_
 
 ### 1、批量 LOV 查询不支持主键加密
@@ -44,6 +46,8 @@ _hzero-platform_ 需升级版本
 ```
 {% endcode %}
 
+
+
 ## _hzero-import_
 
 ### 1、导入报主键加密错误
@@ -59,6 +63,8 @@ _hzero-starter-keyencrypt_ 需升级版本至 _`1.9.1.RELEASE`_
 </dependency>
 ```
 {% endcode %}
+
+
 
 ## _hssp-service_
 
@@ -83,4 +89,18 @@ _hzero-starter-keyencrypt_ 需升级版本至 _`1.9.1.RELEASE`_
 {% endhint %}
 
 
+
+## _hippius-submenu_
+
+### 1、_hzero_ 合并库 _app_不能获取子应用
+
+&#x20;需配置数据库前缀变量
+
+{% code overflow="wrap" lineNumbers="true" %}
+```json
+database:
+    prefix:
+      hzeroPlatform: ${DATABASE_PRFIX_HZEROPLATFORM:HZERO}
+```
+{% endcode %}
 
