@@ -25,7 +25,6 @@
   * [hfins-data-transfer](service-updates/hfins-data-transfer/README.md)
     * [1.7.1.BETA](service-updates/hfins-data-transfer/1.7.1.beta.md)
     * [1.7.1.BETA.1](service-updates/hfins-data-transfer/1.7.1.beta.1.md)
-  * [Linux 安装 Mysql](service-updates/linux-an-zhuang-mysql.md)
 * [🤣 Q & A](q-and-a/README.md)
   * [前端](q-and-a/qian-duan.md)
   * [后端](q-and-a/hou-duan.md)
