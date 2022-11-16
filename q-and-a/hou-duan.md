@@ -104,3 +104,39 @@ database:
 ```
 {% endcode %}
 
+
+
+## _hzero-boot-import_
+
+### 1、_boot-import 与 boot-interface `poi` 不兼导入报错_
+
+{% code overflow="wrap" lineNumbers="true" %}
+```log
+Exception in thread "hzero.import?" java.Lang. NoSuchMethodError Create breakpoint: 'org.apache.poi.xssf.model.SharedStringsTable org.apache.poi.xssf.eventusermodel.XSSFReac
+at com.monitorbl.xlsx.impl.Streaminglorkbookreader.inittot
+iva: 122)
+at com.monitorjbi.xlsx.impl.StreamingWorkbookReader.init(StreaminqWorkbookReader.java:91)
+at com.monitorjbi.xisx.StreamingReader$Builder.open(StreaminqReader.java:251)
+at org.hzero.boot.imported.infra.execute. ExcelImportExecute.run (ExcelImportExecute. java:122) at org.hzero.boot.imported.infra.execute.strategy. DefaultImportExecuteStrategy. execute (DefaultImportExecutes
+• java: 143)
+```
+{% endcode %}
+
+&#x20;需将 _`boot-import`_ 的依赖顺序调至 _`boot-interface`_ 之前
+
+{% code overflow="wrap" lineNumbers="true" %}
+```xml
+<dependency>
+    <groupId>org.hzero.boot</groupId>
+    <artifactId>hzero-boot-import</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.hzero.boot</groupId>
+    <artifactId>hzero-boot-interface</artifactId>
+</dependency>
+```
+{% endcode %}
+
+
+
