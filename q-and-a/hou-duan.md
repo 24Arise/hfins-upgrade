@@ -142,7 +142,7 @@ at org.hzero.boot.imported.infra.execute. ExcelImportExecute.run (ExcelImportExe
 
 ## _hzero-boot-platform_
 
-### 1、_boot-platform 更新 `1.9.3.RELEASE` 时缺少 `HzeroServiceVisitorManager` _&#x20;
+### 1、_boot-platform 更新 `1.9.3.RELEASE` 时缺少 HzeroServiceVisitorManager_&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```log
