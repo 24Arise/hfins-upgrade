@@ -12,7 +12,7 @@ __
 
 | Service                  | Description                                                   | Version                                                                                             |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| _hssp-service_           | _Smart Finance Suite - Shared services_                       | __![](https://img.shields.io/badge/-1.7.1.BETA.4-brightgreen)__                                     |
+| _hssp-service_           | _Smart Finance Suite - Shared services_                       | __![](https://img.shields.io/badge/-1.7.1.BETA.5-brightgreen)__                                     |
 | _hfins-ecm_              | _Smart Financial Suite - Electronic archival Imaging Service_ | __<img src="https://img.shields.io/badge/-1.7.1.BETA.3-brightgreen" alt="" data-size="original">    |
 | _hfins-esr_              | _Smart Financial Suite - Credit Performance services_         | ![](https://img.shields.io/badge/-1.7.1.BETA.1-brightgreen)                                         |
 | _hfins-ids_              | _Smart Financial Suite - Smart Audit service_                 | <img src="https://img.shields.io/badge/-1.7.1.BETA.2-brightgreen" alt="" data-size="original">      |
