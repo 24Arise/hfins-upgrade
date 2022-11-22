@@ -101,7 +101,7 @@ _`HZERO` 默认卡片 `消息卡片` 和 `常用功能` 不能正常显示，一
 * `packages-config.js`
 
 {% code overflow="wrap" lineNumbers="true" %}
-```json
+```yaml
 {
     name: 'hzero-front-hiam',
     registerRegex: '.*'
