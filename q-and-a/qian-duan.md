@@ -74,3 +74,44 @@ _hfins-front_  根目录的 _tsconfig.json_ 文件
 
 
 
+## _hzero-front_
+
+_`hzero-front`  _  升级 _ `1.7.5-beta.1` _ 不能通过 _ `websocket` _ 刷新在线用户的缓存
+
+{% hint style="info" %}
+_在线用户_ 及 _在线用户统计_、_在线用户明细_ 报表都是通过获取 _`Redis`_ 中 _`key：websocket:online-users:all`_ 来查询当前在线用户
+{% endhint %}
+
+> 可将 _`hzero-front`_ 降级至 _`1.7.3`_ 版本
+
+{% code lineNumbers="true" %}
+```yaml
+"hzero-front": "1.7.3"
+```
+{% endcode %}
+
+
+
+## _card loading ..._
+
+_`HZERO` 默认卡片 `消息卡片` 和 `常用功能` 不能正常显示，一直处于 `loading` 状态_
+
+> 系 _`hiam`_ 和 _`hmsg`_ 子模块未设置首屏加载，可通过设置 _`registerRegex`_ 解决
+
+* `packages-config.js`
+
+{% code overflow="wrap" lineNumbers="true" %}
+```json
+{
+    name: 'hzero-front-hiam',
+    registerRegex: '.*'
+},
+{
+    name: 'hzero-front-hmsg',
+    registerRegex: '.*'
+}
+```
+{% endcode %}
+
+
+
