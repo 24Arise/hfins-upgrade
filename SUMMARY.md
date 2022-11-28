@@ -8,6 +8,7 @@
     * [1.7.1.BETA.3](service-updates/hssp-service/1.7.1.beta.3.md)
     * [1.7.1.BETA.4](service-updates/hssp-service/1.7.1.beta.4.md)
     * [1.7.1.BETA.5](service-updates/hssp-service/1.7.1.beta.5.md)
+    * [1.7.1.BETA.6](service-updates/hssp-service/1.7.1.beta.6.md)
     * [1.7.1.RELEASE](service-updates/hssp-service/1.7.1.release.md)
   * [hfins-ecm](service-updates/hfins-ecm.md)
     * [1.7.1.BETA](service-updates/hfins-ecm/1.7.1.beta.md)
