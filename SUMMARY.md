@@ -19,6 +19,7 @@
     * [1.7.1.BETA.2](service-updates/hfins-ecm/1.7.1.beta.2.md)
     * [1.7.1.BETA.3](service-updates/hfins-ecm/1.7.1.beta.3.md)
     * [1.7.1.RELEASE](service-updates/hfins-ecm/1.7.1.release.md)
+    * [1.7.2.BETA](service-updates/hfins-ecm/1.7.2.beta.md)
   * [hfins-esr](service-updates/hfins-esr.md)
     * [1.7.1.BETA](service-updates/hfins-esr/1.7.1.beta.md)
     * [1.7.1.BETA.1](service-updates/hfins-esr/1.7.1.beta.1.md)
