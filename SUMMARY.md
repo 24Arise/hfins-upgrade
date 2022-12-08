@@ -33,6 +33,7 @@
     * [1.7.2.BETA.1](service-updates/hfins-ids/1.7.2.beta.1.md)
   * [hfins-fm](service-updates/hfins-fm/README.md)
     * [1.0.0.RELEASE](service-updates/hfins-fm/1.0.0.release.md)
+    * [1.0.1.BETA.3](service-updates/hfins-fm/1.0.1.beta.3.md)
   * [hfins-cpln](service-updates/hfins-cpln/README.md)
     * [1.0.0.RELEASE](service-updates/hfins-cpln/1.0.0.release.md)
   * [hscs-accounts-engine](service-updates/hscs-accounts-engine/README.md)
