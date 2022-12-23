@@ -181,3 +181,67 @@ Caused by: java.lang.ClassNotFoundException: org.hzero.common.HzeroServiceVisito
 
 
 
+## _hdsp-fr-server_
+
+### 1、_帆软报表管理，上传报表文件时 `error.upload.multipartSize`异常_
+
+{% code overflow="wrap" lineNumbers="true" %}
+```log
+Caused by: java.io.IOException: The temporary upload location [/tmp/tomcat.1658012614036908717.8574/work/Tomcat/localhost/ROOT] is not valid
+        at org.apache.catalina.connector.Request.parseParts(Request.java:2877)
+        at org.apache.catalina.connector.Request.parseParameters(Request.java:3242)
+        at org.apache.catalina.connector.Request.getParameter(Request.java:1136)
+        at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381)
+        at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:84)
+```
+{% endcode %}
+
+`Spring Boot` 项目启动时会在`/tmp` 目录生成相关临时目录
+
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
+hsperfdata_root，
+tomcat.************.8080
+tomcat-docbase.*********.8080
+```
+{% endcode %}
+
+`Multipart（form-data)`方式的请求时，默认会在第二个目录下创建临时文件，而 `CentOS` 会定时清理临时目录，导致目录不存在。可通过以下两种方式解决：
+
+* 调整 `Spring Boot` 启动 `Tomcat` 目录
+
+{% code lineNumbers="true" %}
+```bash
+-Dserver.tomcat.basedir=/home/tem
+```
+{% endcode %}
+
+* 设置 `CentOS` 不删除临时目录
+
+> `vim /usr/lib/tmpfiles.d/tmp.conf`
+>
+> 添加 `x /tmp/tomcat.*`
+
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+# See tmpfiles.d(5) for details
+
+# Clear tmp directories separately, to make them easier to override
+v /tmp 1777 root root 10d    # 清理/tmp下10天前的目录和文件
+v /var/tmp 1777 root root 30d    # 清理/var/tmp下30天前的目录和文件
+
+# Exclude namespace mountpoints created with PrivateTmp=yes
+x /tmp/systemd-private-%b-*
+X /tmp/systemd-private-%b-*/tmp
+x /tmp/tomcat.*
+x /var/tmp/systemd-private-%b-*
+X /var/tmp/systemd-private-%b-*/tmp
+```
+{% endcode %}
