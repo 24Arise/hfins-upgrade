@@ -31,7 +31,7 @@
     * [1.7.1.BETA.2](service-updates/hfins-ids/1.7.1.beta.2.md)
     * [1.7.1.BETA.3](service-updates/hfins-ids/1.7.1.beta.3.md)
     * [1.7.1.BETA.4](service-updates/hfins-ids/1.7.1.beta.4.md)
-    * [Copy of 1.7.1.BETA.4](service-updates/hfins-ids/copy-of-1.7.1.beta.4.md)
+    * [1.7.1.BETA.5](service-updates/hfins-ids/1.7.1.beta.5.md)
     * [1.7.1.RELEASE](service-updates/hfins-ids/1.7.1.release.md)
     * [1.7.2.BETA](service-updates/hfins-ids/1.7.2.beta.md)
     * [1.7.2.BETA.1](service-updates/hfins-ids/1.7.2.beta.1.md)
