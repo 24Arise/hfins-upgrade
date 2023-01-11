@@ -22,7 +22,7 @@ _<mark style="color:green;">更新说明</mark>_
 
 1、脚本种子数据
 
-请在 _`hfins_ids`_  库中执行 表结构.zip 中本次新增的表结构
+请在 _`hfins_ids`_  库中执行 _`表结构.zip`_ 中本次新增的表结构
 
 {% file src="../../.gitbook/assets/表结构.zip" %}
 
