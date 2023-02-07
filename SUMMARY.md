@@ -41,6 +41,7 @@
     * [1.7.2.BETA.4](service-updates/hfins-ids/1.7.2.beta.4.md)
     * [1.7.2.BETA.5](service-updates/hfins-ids/1.7.2.beta.5.md)
     * [1.7.2.BETA.6](service-updates/hfins-ids/1.7.2.beta.6.md)
+    * [1.7.2.BETA.7](service-updates/hfins-ids/1.7.2.beta.7.md)
   * [hfins-fm](service-updates/hfins-fm/README.md)
     * [1.0.0.RELEASE](service-updates/hfins-fm/1.0.0.release.md)
     * [1.0.1.BETA.3](service-updates/hfins-fm/1.0.1.beta.3.md)
